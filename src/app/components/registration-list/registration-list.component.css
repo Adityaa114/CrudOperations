@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+}
+
+.filter{
+   
+    height: 3.1rem;
+    width: 15rem;
+    font-size: larger;
+}
+

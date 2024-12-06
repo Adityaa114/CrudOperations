@@ -1,0 +1,55 @@
+<mat-card class="example-card text-center">
+    <mat-card-header class="justify-content-center">
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{userDetails.firstName}}  {{userDetails.lastName}}</mat-card-title>
+      <mat-card-subtitle>{{userDetails.email}}</mat-card-subtitle>
+    </mat-card-header>
+  
+    <mat-card-content>
+      <mat-list>
+        <mat-list-item>
+          <div matLine>
+            Mobile Number :
+            <button mat-button>{{userDetails.mobile}}</button>
+          </div>
+        </mat-list-item>
+  
+        <mat-list-item>
+          <div matLine>
+            Gender :
+            <button mat-button>{{userDetails.gender}}</button>
+          </div>
+        </mat-list-item>
+        <mat-list-item>
+          <div matLine>
+            Blood Type :
+            <button mat-button>{{userDetails.bloodGrp}}</button>
+          </div>
+        </mat-list-item>
+        <mat-list-item>
+          <div matLine>
+            BMI :
+            <button mat-button>{{userDetails.bmi}}</button>
+          </div>
+        </mat-list-item>
+        <mat-list-item>
+          <div matLine>
+            BMI Result :
+            <button mat-button>{{userDetails.bmiResult}}</button>
+          </div>
+        </mat-list-item>
+        <mat-list-item>
+          <div matLine>
+            Need Specialist :
+            <button mat-button>{{userDetails.requireSpecialist}}</button>
+          </div>
+        </mat-list-item>
+        <mat-list-item>
+          <div matLine>        
+              diseasesList:
+              <button mat-button>{{userDetails.diseasesList}}</button>
+          </div>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+  </mat-card>

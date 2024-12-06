@@ -1,0 +1,26 @@
+.registration{
+    margin: 1rem 1.5rem 0rem 1.5rem;
+    
+}
+.row{
+    display: grid;
+    justify-content: space-around;
+    align-items: normal;
+    grid-template-columns: repeat(2,400px);
+    grid-template-rows: repeat(auto-fill,80px);
+    column-gap: 2.5rem;
+    
+    
+}
+mat-form-field{
+    width: 100%;
+    height: 100%;
+}
+button{
+   width: 30%;
+}
+
+.img{
+    width: 100%;
+    height: 100px;
+}
